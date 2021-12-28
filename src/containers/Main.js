@@ -43,12 +43,12 @@ export default class Main extends Component {
                   <Education {...props} theme={this.props.theme} />
                 )}
               />
-              <Route
+              {/* <Route
                 path="/opensource"
                 render={(props) => (
                   <Opensource {...props} theme={this.props.theme} />
                 )}
-              />
+              /> */}
               <Route
                 path="/contact"
                 render={(props) => (
@@ -104,12 +104,12 @@ export default class Main extends Component {
                   <Education {...props} theme={this.props.theme} />
                 )}
               />
-              <Route
+              {/* <Route
                 path="/opensource"
                 render={(props) => (
                   <Opensource {...props} theme={this.props.theme} />
                 )}
-              />
+              /> */}
               <Route
                 path="/contact"
                 render={(props) => (
@@ -129,6 +129,12 @@ export default class Main extends Component {
                 path="/projects"
                 render={(props) => (
                   <Projects {...props} theme={this.props.theme} />
+                )}
+              />
+              <Route
+                path="*"
+                render={(props) => (
+                  <Error404 {...props} theme={this.props.theme} />
                 )}
               />
             </Switch>
