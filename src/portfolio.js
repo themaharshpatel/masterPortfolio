@@ -25,9 +25,9 @@ const greeting = {
   subTitle:
     "A final-year technology-oriented student pursuing a Bachelor's degree in Computer Engineering who enjoys figuring out how to solve any problem using open-source technologies.",
   resumeLink:
-    "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
+    "https://drive.google.com/file/d/1vKv6aTE9wCpr7QcwWyN17l0jIyeY1fyO/view?usp=sharing",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+  githubProfile: "https://github.com/themaharshpatel",
 };
 
 const socialMediaLinks = [
@@ -107,54 +107,14 @@ const skills = {
       ],
     },
     {
-      title: "Cloud Infra-Architecture And Devops",
-      fileName: "CloudInfraImg",
+      title: "System Administration and Automation",
+      fileName: "SysAdminImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
-      ],
-      softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
-          style: {
-            color: "#336791",
-          },
-        },
-      ],
-    },
-    ,
-    {
-      title: "System Administrtion and Automation",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "🖥️ Knowledge of System administration of platforms like Windows and Linux",
+        "🖥️ Deployment of Windows Active Directory with tools like Samba and Zentyal",
+        "🖥️ Having a good grip on automation tools like Ansible",
+        "💾 Setting up and managing open source enterprise storage solutions like TrueNAS",
+        "🛡️ Knowledge of managing network infrastructure with open source firewalls like PfSense",
       ],
       softwareSkills: [
         {
@@ -162,6 +122,13 @@ const skills = {
           fontAwesomeClassname: "simple-icons:redhat",
           style: {
             color: "#EE0000",
+          },
+        },
+        {
+          skillName: "Windows Administration",
+          fontAwesomeClassname: "simple-icons:windows",
+          style: {
+            color: "#0078D6",
           },
         },
         {
@@ -188,14 +155,75 @@ const skills = {
       ],
     },
     {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
+      title: "Cloud Infra-Architecture And Devops",
+      fileName: "CloudInfraImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "☁️ Experience working on GCP and AWS.",
+        "📤 Deploying and maintaining the web app on virtual machines along with basic network security by Cloudflare",
+        "⚙️ Great experience of Firebase services to deploy and manage apps",
       ],
       softwareSkills: [
+        {
+          skillName: "Google Cloud",
+          fontAwesomeClassname: "simple-icons:googlecloud",
+          style: {
+            color: "#4285F4",
+          },
+        },
+        {
+          skillName: "AWS",
+          fontAwesomeClassname: "simple-icons:amazonaws",
+          style: {
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "Firebase",
+          fontAwesomeClassname: "simple-icons:firebase",
+          style: {
+            color: "#FFCA28",
+          },
+        },
+        {
+          skillName: "MySQL",
+          fontAwesomeClassname: "simple-icons:mysql",
+          style: {
+            color: "#336791",
+          },
+        },
+        {
+          skillName: "Cloudflare",
+          fontAwesomeClassname: "simple-icons:cloudflare",
+          style: {
+            color: "#F38020",
+          },
+        },
+      ],
+    },
+
+    {
+      title: "Graphics and UI/UX Design",
+      fileName: "DesignImg",
+      skills: [
+        "🎨 Designing a highly attractive user interface for mobile applications",
+        "🖼️ Modifying and creating graphic designs and building designs from the ground",
+        "♟️ Take minute things into consideration to improve User Experience",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Adobe Illustrator",
+          fontAwesomeClassname: "simple-icons:adobeillustrator",
+          style: {
+            color: "#FF7C00",
+          },
+        },
+        {
+          skillName: "Adobe Photoshop",
+          fontAwesomeClassname: "simple-icons:adobephotoshop",
+          style: {
+            color: "#31A8FF",
+          },
+        },
         {
           skillName: "Adobe XD",
           fontAwesomeClassname: "simple-icons:adobexd",
@@ -208,20 +236,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:figma",
           style: {
             color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
           },
         },
       ],
@@ -246,15 +260,15 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
+      title: "Silver Oak College of Engineering and Technology",
       subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - Present",
+      logo_path: "socet.png",
+      alt_name: "SOCET",
+      duration: "2018 - Present",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "📚 Studied core computer engineering subjects like DS, ADA, CD, CN, etc",
+        "🎙️ Delivered some talks to my fellow students to share my knowledge on various technologies.",
+        "🧑🏻‍🎓 Led and volunteered in many student-led communities operating globally.",
       ],
       website_link: "https://socet.edu.in",
     },
@@ -442,8 +456,7 @@ const contactPageData = {
   contactSection: {
     title: "Contact Me",
     profile_image_path: "maharsh_bitmoji.png",
-    description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+    description: "",
   },
   blogSection: {
     title: "Blogs",
