@@ -267,7 +267,7 @@ const degrees = {
       duration: "2018 - Present",
       descriptions: [
         "📚 Studied core computer engineering subjects like DS, ADA, CD, CN, etc",
-        "🎙️ Delivered some talks to my fellow students to share my knowledge on various technologies.",
+        "🎙️ Delivered some talks to my fellow students to share my knowledge on various tools and technologies. Talks on topics like Computer Hardware Components, Android Development, Designing Workshops, etc.",
         "🧑🏻‍🎓 Led and volunteered in many student-led communities operating globally.",
       ],
       website_link: "https://socet.edu.in",
