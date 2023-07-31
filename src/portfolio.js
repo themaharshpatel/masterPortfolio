@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Maharsh's Portfolio",
   description:
-    "A final-year technology-oriented student pursuing a Bachelor's degree in Computer Engineering who enjoys figuring out how to solve any problem using open-source technologies.",
+    "I am a 2022 batch student, have completed my B.Tech in Computer Engineering.\nCurrently working as an Android Developer at Veeksha. I am a 2x Redhat Certified professional.",
   og: {
     title: "Maharsh Patel's Portfolio",
     type: "website",
@@ -22,8 +22,7 @@ const greeting = {
   title: "Maharsh Patel",
   logo_name: "Maharsh Patel",
   nickname: "themaharshpatel",
-  subTitle:
-    "A final-year technology-oriented student pursuing a Bachelor's degree in Computer Engineering who enjoys figuring out how to solve any problem using open-source technologies.",
+  subTitle: "SDE - 1 at Adda247. Full Stack Developer",
   resumeLink:
     "https://drive.google.com/file/d/1vKv6aTE9wCpr7QcwWyN17l0jIyeY1fyO/view?usp=sharing",
   portfolio_repository: "https://github.com/themaharshpatel/masterPortfolio",
@@ -72,7 +71,8 @@ const skills = {
       title: "Software Development",
       fileName: "FullStackImg",
       skills: [
-        "📱 Developing Android Applications using Java",
+        "📱 Developing Android Applications using Kotlin",
+        "👤 Creating application which are more accessiable to users.",
         "🖥️ System Designs which are scalable and roboust",
       ],
       softwareSkills: [
@@ -81,6 +81,13 @@ const skills = {
           fontAwesomeClassname: "simple-icons:android",
           style: {
             color: "#3DDC84",
+          },
+        },
+        {
+          skillName: "Kotlin",
+          fontAwesomeClassname: "simple-icons:kotlin",
+          style: {
+            color: "#6c3fd1",
           },
         },
         {
@@ -264,7 +271,7 @@ const degrees = {
       subtitle: "B.Tech. in Computer Engineering",
       logo_path: "socet.png",
       alt_name: "SOCET",
-      duration: "2018 - Present",
+      duration: "2018 - 2022",
       descriptions: [
         "📚 Studied core computer engineering subjects like DS, ADA, CD, CN, etc",
         "🎙️ Delivered some talks to my fellow students to share my knowledge on various tools and technologies. Talks on topics like Computer Hardware Components, Android Development, Designing Workshops, etc.",
@@ -282,7 +289,7 @@ const certifications = {
       subtitle: "- Redhat",
       logo_path: "RHCE.png",
       certificate_link:
-        "https://rhtapps.redhat.com/certifications/badge/verify/SM6ZWSVNGL32EC7ONRIRY3CJS4AEQU3CUPSQX2KSDXT6RW46LQ3XCZJWRJNV7ILTXVE4I6VB7OTCG4U5NQYTCNA62RUWOCM34WWBUYQ=",
+        "https://www.credly.com/badges/d4101382-c638-4f42-b55c-043dd5e814b6/public_url",
       alt_name: "RHCE Badge",
       color_code: "#4C4C4C",
     },
@@ -291,7 +298,7 @@ const certifications = {
       subtitle: "- Redhat",
       logo_path: "RHCSA.png",
       certificate_link:
-        "https://www.redhat.com/rhtapps/services/certifications/badge/verify/SM6ZWSVNGL32EC7ONRIRY3CJS4AEQU3CUPSQX2KSDXT6RW46LQ3T7ULZ55KZZ56SKO7EQ3ETTLYZQ4U5NQYTCNA62RUWOCM34WWBUYQ=",
+        "https://www.credly.com/badges/3a69e6b9-fbf4-448a-a1d3-d0155f519268/public_url",
       alt_name: "RHCSA Badge",
       color_code: "#4C4C4C",
     },
@@ -303,23 +310,40 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I've worked as an Android developer, A System Administrator, and A Graphic Designer in the past. I enjoy becoming involved in communities to share and expand my knowledge while also making new connections.",
+    "I've worked as an Software Engineer, A System Administrator, and A Graphic Designer. I enjoy becoming involved in communities to share and expand my knowledge while also making new connections.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work",
       experiences: [
         {
-          title: "Android Developer",
-          company: "Feeltech Digivation Pvt. Ltd.",
-          company_url:
-            "https://www.linkedin.com/company/feeltech-digivation/about/",
-          logo_path: "FTD-logo.png",
-          duration: "Jun 2021 - Present",
+          title: "SDE - 1",
+          company: "Adda247",
+          company_url: "https://adda247.com",
+          logo_path: "adda247-logo.svg",
+          duration: "March 2023 - present",
+          location: "Gurugram, Haryana",
+          description: "",
+          color: "#E21221",
+        },
+        {
+          title: "Software Engineer",
+          company: "Veeksha",
+          company_url: "https://veeksha.app",
+          logo_path: "Veeksha-Logo.png",
+          duration: "June 2021 - Feburary 2023",
           location: "Ahmedabad, Gujarat",
           description:
-            "Feeltech Digivation offers AR/VR-based services. As I joined the company while it was in its beginnings, I was able to work in a variety of capacities, including System Administration, Network Administration, Graphics Designing, and Android Development. This exposed me to a lot of other tools, such as PfSense, Truenas, Gitea, and so on.",
-          color: "#fc1f20",
+            "Created initial documentation for the Veeksha application. " +
+            "Made a time plan for Production. " +
+            "Communicated Deliverables and time delays to stakeholders. " +
+            "Successfully achieved every phase of SDLC. " +
+            "From the reviews of the customer, provided updates and patches to the application. " +
+            "Evaluating the projects' technological requirements and task scope. " +
+            "Enabling the use of open-source software to optimize daily chores. " +
+            "Identifying the ideal tool that can help the team save valuable time and money. " +
+            "Self-hosted tools and the Firewall's operation and maintenance.",
+          color: "#65b8fc",
         },
       ],
     },
@@ -327,11 +351,21 @@ const experience = {
       title: "Volunteerships",
       experiences: [
         {
+          title: "Graphics Designer Volunteer",
+          company: "Google Developers Group Cloud Ahmedabad",
+          company_url: "https://www.linkedin.com/company/gdgcloudahm/",
+          logo_path: "GDGCloudAHM.svg",
+          duration: "January 2022 - present",
+          location: "Ahmedabad, Gujarat",
+          description: "",
+          color: "#00629b",
+        },
+        {
           title: "Student Advisor and Member",
           company: "Silver Oak University IEEE Student Branch",
           company_url: "http://ieee.silveroakuni.ac.in",
           logo_path: "SOUIEEESB.png",
-          duration: "January 2022 - Present",
+          duration: "January 2022 - December 2022",
           location: "Ahmedabad, Gujarat",
           description:
             "Advising the Student Branch's new leaders to accomplish greater heights.",
